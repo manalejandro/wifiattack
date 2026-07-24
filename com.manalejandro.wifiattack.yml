@@ -1,0 +1,49 @@
+Categories:
+  - Security
+License: Apache-2.0
+AuthorName: manalejandro
+AuthorEmail: manalejandro@users.noreply.github.com
+WebSite: https://github.com/manalejandro/wifiattack
+SourceCode: https://github.com/manalejandro/wifiattack
+IssueTracker: https://github.com/manalejandro/wifiattack/issues
+Changelog: https://github.com/manalejandro/wifiattack/releases
+
+Name: WiFi Attack Detector
+Summary: Detect and track WiFi attacks in real-time
+Description: |
+  WiFi Attack Detector monitors WiFi network activity to detect potential
+  security threats. It analyzes WiFi scan results to identify suspicious
+  patterns that may indicate deauthentication attacks, evil twin attacks,
+  beacon floods, and probe floods.
+
+  Features:
+  * Real-time WiFi monitoring with continuous network scanning
+  * Deauthentication, evil twin, beacon flood, and probe flood detection
+  * Channel statistics with threat level indicators (None to Critical)
+  * Support for 2.4GHz, 5GHz, and 6GHz bands
+  * Signal direction tracking using compass and accelerometer
+  * Material Design 3 with Jetpack Compose
+  * Dark and light theme support
+  * No internet connection required
+  * No data collection or tracking
+
+  This app uses publicly available Android APIs and provides estimates
+  based on observable network behavior.
+
+RepoType: git
+Repo: https://github.com/manalejandro/wifiattack
+
+Builds:
+  - versionName: "1.0.3"
+    versionCode: 3
+    commit: v1.0.3
+    subdir: app
+    gradle:
+      - release
+    gradleprops:
+      - org.gradle.jvmargs=-Xmx2048m
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: "1.0.3"
+CurrentVersionCode: 3

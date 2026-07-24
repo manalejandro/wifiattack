@@ -1,0 +1,17 @@
+WiFi Attack Detector is an Android application that monitors WiFi network activity to detect potential security threats. It analyzes WiFi scan results to identify suspicious patterns that may indicate various types of attacks, including deauthentication attacks, evil twin attacks, and beacon floods.
+
+Features:
+- Real-time WiFi monitoring with continuous scanning of nearby networks
+- Detection of network anomalies and suspicious patterns
+- Visual representation of activity per WiFi channel with threat level indicators (None, Low, Medium, High, Critical)
+- Support for 2.4GHz, 5GHz, and 6GHz bands
+- Deauthentication attack detection
+- Evil twin attack detection (identifies duplicate SSIDs)
+- Beacon flood detection
+- Signal direction tracking using compass and accelerometer
+- Material Design 3 with Jetpack Compose
+- Dark and light theme support
+- No internet connection required
+- No data collection or tracking
+
+This app uses publicly available Android APIs and provides estimates based on observable network behavior. It does NOT capture raw WiFi packets (requires root).

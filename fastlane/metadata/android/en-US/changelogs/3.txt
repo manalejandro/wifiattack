@@ -1,0 +1,7 @@
+Initial release v1.0.3:
+- Real-time WiFi monitoring and attack detection
+- Deauthentication, evil twin, beacon flood, and probe flood detection
+- Channel statistics with threat level indicators
+- Signal direction tracking with compass
+- Material Design 3 UI with dark/light theme
+- No internet or data collection required
