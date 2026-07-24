@@ -1,0 +1,3 @@
+v1.0.4:
+- Added F-Droid fastlane metadata for app store listing
+- Bug fixes and performance improvements
