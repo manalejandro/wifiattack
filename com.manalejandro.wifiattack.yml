@@ -34,9 +34,9 @@ RepoType: git
 Repo: https://github.com/manalejandro/wifiattack
 
 Builds:
-  - versionName: "1.0.3"
-    versionCode: 3
-    commit: v1.0.3
+  - versionName: "1.0.4"
+    versionCode: 4
+    commit: v1.0.4
     subdir: app
     gradle:
       - release
@@ -45,5 +45,5 @@ Builds:
 
 AutoUpdateMode: Version
 UpdateCheckMode: Tags
-CurrentVersion: "1.0.3"
-CurrentVersionCode: 3
+CurrentVersion: "1.0.4"
+CurrentVersionCode: 4
